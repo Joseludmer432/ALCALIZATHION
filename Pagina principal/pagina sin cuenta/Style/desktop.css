@@ -1,0 +1,43 @@
+/* header */
+header {
+    height: 12vh;
+    width: 100%;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-principal--imagen {
+    width: 15rem;
+    height: 100%;
+    background-color: #25e45f;
+    margin-left: 15px;
+}
+
+.links-and-main .search-text {
+    width:200px;
+    height: 20px;
+    margin-right: 150px;
+}
+.links-and-main {
+    display: flex;
+}
+
+.links-and-main ul {
+    margin-left: 15px;
+    font-size: 15px;
+}
+
+.links-and-main .final {
+    margin-right: 15px;
+    font-size: 15px;
+    margin-left: 15px;
+}
+/* main */
+
+
+
+
+
+/* footer */
