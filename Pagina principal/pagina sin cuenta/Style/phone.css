@@ -77,13 +77,15 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 
 .copyright {
     display:flex;
     margin-left: 5px;
-    height: 50%;
+    height: 100%    ;
     align-items: center;
+    width: 23%;
 }
 
 .link-to-the-files {
