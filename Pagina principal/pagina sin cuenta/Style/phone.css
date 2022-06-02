@@ -7,7 +7,10 @@
 body {
     font-size: 62.5%;
 }
+
+
 /* total-screen */
+
 .total-screen {
     width: 100%;
 }
@@ -18,9 +21,8 @@ body {
 }
 
 
-
-
 /* header */
+
 header {
     width: 100%;
     height: 4.5rem;
@@ -31,16 +33,16 @@ header {
 }
 
 .logo-principal--imagen {
-    width:  40px;
-    height: 50%;    
+    width: 40px;
+    height: 50%;
     background-color: #b1cf2b;
     margin-left: 10px;
     margin-right: 5px;
 }
 
-.links-and-main{
+.links-and-main {
     display: flex;
-    margin-right: 5px;
+    margin-right: 5%;
 }
 
 .links-and-main .inicio-and-create {
@@ -49,7 +51,7 @@ header {
 
 .links-and-main .search-text {
     width: 125px;
-    margin-right: 5px;
+    margin-right: 7px;
 }
 
 .links-and-main .inicio-and-create ul li a:hover {
@@ -60,7 +62,6 @@ header {
     list-style-type: none;
     font-size: 11px;
     margin-right: 5px;
-
 }
 
 .links-and-main ul li a {
@@ -70,7 +71,6 @@ header {
 
 .details-menu {
     font-size: 11px;
-
 }
 
 .details-menu p a:hover {
@@ -82,7 +82,9 @@ header {
     color: #000000;
 }
 
+
 /* main */
+
 main {
     width: 100%;
     height: 81vh;
@@ -90,8 +92,8 @@ main {
 }
 
 
-
 /* footer */
+
 footer {
     width: 100%;
     height: 8.7vh;
@@ -99,13 +101,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
 .copyright {
-    display:flex;
+    display: flex;
     margin-left: 5px;
-    height: 100%    ;
+    height: 100%;
     align-items: center;
     width: 23%;
 }
@@ -115,7 +116,7 @@ footer {
 }
 
 .link-to-the-files p {
-    margin-right:5px ;
+    margin-right: 5px;
     font-size: 10.5px;
 }
 
