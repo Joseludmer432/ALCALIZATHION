@@ -46,6 +46,7 @@ main {
     flex-direction: column;
     font-size: 15px;
     margin-top: 25px;
+    margin-right: 42px;
 }
 
 .section-div .name-of-user {
