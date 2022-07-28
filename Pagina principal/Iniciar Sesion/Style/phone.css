@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    background-color: #f3f3f36a;
+}
+
+
+/* Header */
+
+header {
+    width: 100%;
+    height: 50px;
+}
+
+
+/* Main */
+
+main {
+    width: 80%;
+    height: 80vh;
+    background-color: #aaaaaa;
+    margin: 0 auto;
+}
+
+.complete-section--acount {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.title-content {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.title-content h1 {
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+.text-email {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-email .email {
+    height: 20px;
+}
+
+.text-email .email p {
+    font-size: 17px;
+}
+
+.text-email .input-email {
+    height: 50px;
+    margin-top: 5px;
+    width: 200px;
+}
+
+.text-email .input-email input {
+    height: 22px;
+    width: 200px;
+}
+
+.section-password {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-password .text-password {
+    height: 20px;
+    margin-right: 50px;
+}
+
+.section-password .text-password p {
+    font-size: 17px;
+}
+
+.section-password .input-password {
+    margin-top: 5px;
+    height: 50px;
+    width: 200px;
+}
+
+.section-password .input-password input {
+    height: 22px;
+    width: 200px;
+}
+
+.loost-and-sigup {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loost-and-sigup .password-lost {
+    height: 15px;
+}
+
+.loost-and-sigup .password-lost p {
+    font-size: 12.5px;
+}
+
+.loost-and-sigup .sigup-new--acount {
+    height: 15px;
+    margin-top: 1px;
+}
+
+.loost-and-sigup .sigup-new--acount p {
+    font-size: 12.5px;
+}
