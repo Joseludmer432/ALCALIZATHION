@@ -62,7 +62,9 @@ header {
     margin-right: 5px;
 
 }
-
+.links-and-main {
+    margin-right: 5%;
+}
 .links-and-main ul li a {
     text-decoration: none;
     color: #000000;
