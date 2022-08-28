@@ -9,133 +9,122 @@ body {
 }
 
 
-/* total-screen */
-
-.total-screen {
-    width: 100%;
-}
-
-.second-screen--total {
-    width: 100%;
-    height: 90%;
-}
-
-
 /* header */
 
-header {
-    width: 100%;
-    height: 4.5rem;
-    background-color: #54f58e;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    .header {
+        width: 100%;
+        height: 4.5rem;
+        background-color: #54f58e;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-.logo-principal--imagen {
-    width: 40px;
-    height: 50%;
-    margin-left: 10px;
-    margin-right: 5px;
-}
+    .header__logo-principal--imagen {
+         width: 40px;
+        height: 50%;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
 
-.logo-principal--imagen img {
-    width: 50px;
-    height: 50px;
-    margin-top: -6px;
-    margin-left: -4px;
-}
+    .header__logo-principal--imagen img {
+        width: 50px;
+        height: 50px;
+        margin-top: -6px;
+        margin-left: -4px;
+    }
 
-.links-and-main {
-    display: flex;
-    margin-right: 5%;
-}
+    .header__links-and-main {
+        display: flex;
+        margin-right: 5%;
+    }
 
-.links-and-main .inicio-and-create {
-    display: flex;
-}
+    .header__links-and-main .inicio-and-create {
+        display: flex;
+    }
 
-.links-and-main .search-text {
-    width: 125px;
-    margin-right: 7px;
-}
+    .header__links-and-main .search-text {
+        width: 125px;
+        margin-right: 7px;
+        
+    }
 
 
 
-.links-and-main .inicio-and-create ul li a:hover {
-    color: #ffffff;
-}
+    .header__links-and-main .inicio-and-create ul li a:hover {
+        color: #ffffff;
+    }
 
-.links-and-main .inicio-and-create ul {
-    list-style-type: none;
-    font-size: 11px;
-    margin-right: 5px;
-}
-.links-and-main {
-    margin-right: 5%;
-}
-.links-and-main ul li a {
-    text-decoration: none;
-    color: #000000;
-}
+    .header__links-and-main .inicio-and-create ul {
+        list-style-type: none;
+        font-size: 11px;
+        margin-right: 5px;
+    }
+    .header__links-and-main {
+        margin-right: 5%;
+    }
+    .header__links-and-main ul li a {
+        text-decoration: none;
+        color: #000000;
+    }
 
-.details-menu {
-    font-size: 11px;
-}
+    .details-menu {
+        font-size: 11px;
+    }
 
-.details-menu p a:hover {
-    color: #ffffff;
-}
+    .details-menu p a:hover {
+        color: #ffffff;
+    }
 
-.details-menu p a {
-    text-decoration: none;
-    color: #000000;
-}
+    .details-menu p a {
+        text-decoration: none;
+        color: #000000;
+    }
 
 
 /* main */
 
-main {
-    width: 100%;
-    height: 81vh;
-    background-color: #f45f5e;
-}
+    main {
+        width: 100%;
+        height: 81vh;
+        background-color: #f45f5e;
+    }
 
 
 /* footer */
 
-footer {
-    width: 100%;
-    height: 8.7vh;
-    background-color: #125f84f5;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    footer {
+        width: 100%;
+        height: 8.7vh;
+        background-color: #125f84f5;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 
-.copyright {
-    display: flex;
-    margin-left: 5px;
-    height: 100%;
-    align-items: center;
-    width: 23%;
-}
+    .copyright {
+        display: flex;
+        margin-left: 5px;
+        height: 100%;
+        align-items: center;
+        width: 23%;
+    }
 
-.link-to-the-files {
-    display: flex;
-}
+    .link-to-the-files {
+        display: flex;
+    }
 
-.link-to-the-files p {
-    margin-right: 5px;
-    font-size: 10.5px;
-}
+    .link-to-the-files p {
+        margin-right: 5px;
+        font-size: 10.5px;
+    }
 
-.link-to-the-files p a:hover {
-    color: #000000;
-}
+    .link-to-the-files p a:hover {
+        color: #000000;
+    }
 
-.link-to-the-files p a {
-    text-decoration: none;
-    color: #f0f0f0;
-}
+    .link-to-the-files p a {
+        text-decoration: none;
+        color: #f0f0f0;
+    }
 
